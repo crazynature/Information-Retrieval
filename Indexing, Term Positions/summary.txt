@@ -1,0 +1,39 @@
+Model		AveragePrecision
+OkapiTF		0.1461
+TFIDF		0.2544
+BM25		0.2477
+Laplace		0.1497
+JM			0.1814
+Proximity	0.2670
+
+Index Type: Stemmed Without Stopwords
+Index Size: 184.452 M
+
+out.50.stemresult.txt
+error of 7.206 in TTF for symbolism. 2276 instead of 2440
+error of 5.17% in DF for discriminations. 1548 instead of 1468
+error of 16.11% in DF for films. 3464 instead of 2906
+error of 6.287 in TTF for films. 6808 instead of 7236
+error of 13.04% in DF for berumen. 23 instead of 20
+error of 20.00% in DF for haitians. 160 instead of 128
+error of 50.00% in DF for riverblocks. 2 instead of 1
+
+Found error in 6 out of 100 lines
+
+Errors < 5% ignored : 15
+If there is a difference of 1 between 2 values, they are considered equal : for 7 values
+
+out.50.unstemresult.txt
+error of 14.286 in TTF for holmberg. 28 instead of 24
+error of 100.00% in DF for hiroshimas. 1 instead of 2
+error of 100.000 in TTF for hiroshimas. 1 instead of 2
+error of 7.02% in DF for films. 883 instead of 945
+error of 7.068 in TTF for films. 1528 instead of 1636
+error of 11.364 in TTF for berumen. 44 instead of 39
+error of 9.524 in TTF for velez. 21 instead of 19
+error of 33.333 in TTF for petree. 3 instead of 2
+
+Found error in 6 out of 100 lines
+
+Errors < 5% ignored : 18
+If there is a difference of 1 between 2 values, they are considered equal : for 15 values
